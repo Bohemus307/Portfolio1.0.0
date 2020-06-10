@@ -32,8 +32,6 @@ const SEO = ({ title, desc, banner, pathname, node, individual }: Props) => {
       siteLanguage,
       ogLanguage,
       author,
-      twitter,
-      facebook,
     },
   } = site
 
@@ -184,7 +182,7 @@ const SEO = ({ title, desc, banner, pathname, node, individual }: Props) => {
         <html lang={siteLanguage} />
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
-        <meta name="gatsby-starter" content="Gatsby Starter Portfolio Jodie" />
+        <meta name="gatsby-starter" content="Gatsby Portfolio Joshua" />
         {/* Insert schema.org data conditionally (webpage/article) + everytime (breadcrumbs) */}
         {!individual && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
         {individual && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
@@ -197,9 +195,7 @@ const SEO = ({ title, desc, banner, pathname, node, individual }: Props) => {
         type={individual ? 'article' : 'website'}
         url={seo.url}
         locale={ogLanguage}
-        name={facebook}
       />
-      <Twitter title={seo.title} image={seo.image} desc={seo.description} username={twitter} />
     </>
   )
 }
@@ -221,8 +217,6 @@ const query = graphql`
         siteLanguage
         ogLanguage
         author
-        twitter
-        facebook
       }
     }
   }

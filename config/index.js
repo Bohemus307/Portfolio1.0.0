@@ -4,8 +4,8 @@ module.exports = {
   siteTitle: 'Joshua', // Navigation and Site Title
   siteTitleAlt: 'Joshua - Portfolio', // Alternative Site title for SEO
   siteTitleShort: 'Joshua', // short_name for manifest
-  siteHeadline: 'Come & Enjoy our excellent photos', // Headline for schema.org JSONLD
-  siteUrl: 'https://jodie.lekoarts.de', // Domain of your site. No trailing slash!
+  siteHeadline: 'Enjoy a small look into my life and passions', // Headline for schema.org JSONLD
+  siteUrl: 'https://www.linkedin.com/company/stoneandsage/', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo.png', // Used for SEO and manifest
   siteDescription: 'Full Stack Portfolio App To Get To Know ME',
