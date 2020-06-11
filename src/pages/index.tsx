@@ -113,7 +113,7 @@ const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, three
         </FirstProject>
         <AboutUs to="/about" aria-label="Visit my about page">
           <Img fluid={aboutUs.childImageSharp.fluid} />
-          <span>About</span>
+          <span>More</span>
         </AboutUs>
         <ThreeProjects>
           {threeProjects.nodes.map((project) => (
@@ -125,7 +125,7 @@ const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, three
         </ThreeProjects>
         <Instagram to="/instagram" aria-label="See my Instagram pictures">
           <Img fluid={instagram.childImageSharp.fluid} />
-          <span>Instagram</span>
+          <span>Love</span>
         </Instagram>
       </Area>
     </Layout>
@@ -169,7 +169,7 @@ export const query = graphql`
     }
     instagram: file(sourceInstanceName: { eq: "images" }, name: { eq: "instagram" }) {
       childImageSharp {
-        fluid(quality: 95, maxWidth: 1920) {
+        fluid(quality: 95, maxHeight: 300) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
