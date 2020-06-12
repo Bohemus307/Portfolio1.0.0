@@ -125,7 +125,7 @@ const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, three
         </ThreeProjects>
         <Instagram to="/instagram" aria-label="See my Instagram pictures">
           <Img fluid={instagram.childImageSharp.fluid} />
-          <span>Love</span>
+          <span>Instagram</span>
         </Instagram>
       </Area>
     </Layout>
@@ -169,7 +169,7 @@ export const query = graphql`
     }
     instagram: file(sourceInstanceName: { eq: "images" }, name: { eq: "instagram" }) {
       childImageSharp {
-        fluid(quality: 95, maxHeight: 300) {
+        fluid(quality: 95) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }

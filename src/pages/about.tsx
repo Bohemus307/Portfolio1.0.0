@@ -17,6 +17,12 @@ const About = () => {
       <AnimatedBox style={pageAnimation} py={[6, 6, 6, 8]} px={[6, 6, 8, 6, 8, 13]}>
         <h1>Hi. I'm Joshua!</h1>
         <p>
+          Stone and Sage is my creation to share my passion for Software Engineering.
+          <br />
+          I built this site using Gatsby in about 6 hours of work.
+          <br />
+          I really enjoy the software and will be using more in th future.
+          <br />
           You can visit my <a href="https://www.linkedin.com/in/joshuaoxner/">LinkedIn</a> or check out my other{' '}
           <a href="https://github.com/Bohemus307">projects</a>.
         </p>

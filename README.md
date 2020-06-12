@@ -13,13 +13,7 @@
 
 ## Features
 
-- Configurable
-    - Use the config to easily change the most important information
-    - Change the theming for styled-components
-    - Navigation powered by a .yaml file
-    - Layout driven by CSS-Grid
-- Create your projects by creating a folder full of images and adding an entry to a .yaml file
-- Shows your Instagram posts
+- Shows my Instagram posts
 - TypeScript
 - Cypress for End-to-End testing
 - react-spring animations
@@ -42,14 +36,6 @@
 Check your development environment! You'll need [Node.js](https://nodejs.org/en/), the [Gatsby CLI](https://www.gatsbyjs.org/docs/) and [node-gyp](https://github.com/nodejs/node-gyp#installation) installed. The official Gatsby website also lists two articles regarding this topic:
 - [Gatsby on Windows](https://www.gatsbyjs.org/docs/gatsby-on-windows/)
 - [Check your development environment](https://www.gatsbyjs.org/tutorial/part-zero/)
-
-To copy and install this starter run this command (with "project-name" being the name of your folder you wish to install it in):
-
-```
-gatsby new project-name https://github.com/LekoArts/gatsby-starter-portfolio-jodie
-cd project-name
-npm run develop
-```
 
 ### Configuring the Instagram source plugin
 
