@@ -19,8 +19,6 @@ module.exports = {
     siteLanguage: config.siteLanguage,
     ogLanguage: config.ogLanguage,
     author: config.author,
-    twitter: config.userTwitter,
-    facebook: config.ogSiteName,
   },
   plugins: [
     'gatsby-plugin-react-helmet',

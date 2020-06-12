@@ -1,10 +1,7 @@
 ![](https://i.imgur.com/TlwEgUo.png)
 
-# Gatsby Starter Portfolio: Jodie
+# Gatsby Portfolio: Joshua
 
-A portfolio starter for [Gatsby](https://www.gatsbyjs.org/). The target audience are designers and photographers.
-
-[Demo Website](https://jodie.lekoarts.de)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LeKoArts/gatsby-starter-portfolio-jodie) [![Edit gatsby-starter-portfolio-jodie](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/LeKoArts/gatsby-starter-portfolio-jodie/tree/master/)
 
@@ -14,30 +11,9 @@ A portfolio starter for [Gatsby](https://www.gatsbyjs.org/). The target audience
 - Large images & Instagram integration
 - Themeable pages & automatically adapting sidebar
 
-## Why?
-
-If you want to quickly bootstrap a design/photography portfolio or use it as a foundation for your personal site, the starters in _gatsby-starter-portfolio_ are a perfect fit for you! The project's goal is to offer minimalistic and fast websites.
-
-I hope you like my starters and create something awesome! To see some of my work, you can visit my [website](https://www.lekoarts.de) or support me on [Patreon](https://www.patreon.com/lekoarts) to get some neat rewards (4K images, project files, tutorial insights). Every pledge on Patreon helps me create more free starters!
-
-Also, check out the other starters for _gatsby-starter-portfolio_:
-
-- [gatsby-starter-portfolio-emma](https://github.com/LekoArts/gatsby-starter-portfolio-emma)
-- [gatsby-starter-portfolio-emilia](https://github.com/LekoArts/gatsby-starter-portfolio-emilia)
-- [gatsby-starter-portfolio-bella](https://github.com/LekoArts/gatsby-starter-portfolio-bella)
-- [gatsby-starter-portfolio-cara](https://github.com/LekoArts/gatsby-starter-portfolio-cara)
-
-Check out the [Gatsby Starter Portfolio Overview](https://gatsby-starter-portfolio.netlify.com/)!
-
 ## Features
 
-- Configurable
-    - Use the config to easily change the most important information
-    - Change the theming for styled-components
-    - Navigation powered by a .yaml file
-    - Layout driven by CSS-Grid
-- Create your projects by creating a folder full of images and adding an entry to a .yaml file
-- Shows your Instagram posts
+- Shows my Instagram posts
 - TypeScript
 - Cypress for End-to-End testing
 - react-spring animations
@@ -60,14 +36,6 @@ Check out the [Gatsby Starter Portfolio Overview](https://gatsby-starter-portfol
 Check your development environment! You'll need [Node.js](https://nodejs.org/en/), the [Gatsby CLI](https://www.gatsbyjs.org/docs/) and [node-gyp](https://github.com/nodejs/node-gyp#installation) installed. The official Gatsby website also lists two articles regarding this topic:
 - [Gatsby on Windows](https://www.gatsbyjs.org/docs/gatsby-on-windows/)
 - [Check your development environment](https://www.gatsbyjs.org/tutorial/part-zero/)
-
-To copy and install this starter run this command (with "project-name" being the name of your folder you wish to install it in):
-
-```
-gatsby new project-name https://github.com/LekoArts/gatsby-starter-portfolio-jodie
-cd project-name
-npm run develop
-```
 
 ### Configuring the Instagram source plugin
 
@@ -129,19 +97,19 @@ You can configure your setup in `config/index.js`:
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
 
-  siteTitle: 'Jodie', // Navigation and Site Title
-  siteTitleAlt: 'Jodie - Gatsby Starter Portfolio', // Alternative Site title for SEO
-  siteTitleShort: 'Jodie', // short_name for manifest
-  siteHeadline: 'Come & Enjoy our excellent photos', // Headline for schema.org JSONLD
-  siteUrl: 'https://jodie.lekoarts.de', // Domain of your site. No trailing slash!
+  siteTitle: 'Joshua', // Navigation and Site Title
+  siteTitleAlt: 'Joshua - Gatsby Portfolio', // Alternative Site title for SEO
+  siteTitleShort: 'Joshua', // short_name for manifest
+  siteHeadline: 'Welcome to the world of Joshua Scott Oxner', // Headline for schema.org JSONLD
+  siteUrl: 'https://www.linkedin.com/company/stoneandsage/', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo.png', // Used for SEO and manifest
-  siteDescription: 'Image-heavy photography portfolio with colorful accents & great typography',
-  author: 'LekoArts', // Author for schema.org JSONLD
+  siteDescription: 'Image-heavy portfolio to share me and my coding projects',
+  author: 'Joshua', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
-  userTwitter: '@jodie', // Twitter Username
-  ogSiteName: 'jodie', // Facebook Site Name
+  // userTwitter: '@jodie', // Twitter Username
+  // ogSiteName: 'jodie', // Facebook Site Name
   ogLanguage: 'en_US', // og:language
   googleAnalyticsID: 'UA-XXXXXX-X',
 
