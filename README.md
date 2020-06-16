@@ -1,15 +1,8 @@
-![](https://i.imgur.com/TlwEgUo.png)
+![](PortfolioDemo.png)
 
-# Gatsby Portfolio: Joshua
+# Gatsby Portfolio: 
 
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LeKoArts/gatsby-starter-portfolio-jodie) [![Edit gatsby-starter-portfolio-jodie](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/LeKoArts/gatsby-starter-portfolio-jodie/tree/master/)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f51f5488-aa2d-4e42-baa7-4182d9e81c2e/deploy-status)](https://app.netlify.com/sites/portfolio-jodie/deploys) [![CircleCI](https://circleci.com/gh/LekoArts/gatsby-starter-portfolio-jodie.svg?style=svg)](https://circleci.com/gh/LekoArts/gatsby-starter-portfolio-jodie)
-
-- CSS-Grid powered layout with Sidebar
-- Large images & Instagram integration
-- Themeable pages & automatically adapting sidebar
+ For Joshua Scott Oxner Full Stack Software Developer at Stone and Sage Software
 
 ## Features
 
@@ -37,36 +30,21 @@ Check your development environment! You'll need [Node.js](https://nodejs.org/en/
 - [Gatsby on Windows](https://www.gatsbyjs.org/docs/gatsby-on-windows/)
 - [Check your development environment](https://www.gatsbyjs.org/tutorial/part-zero/)
 
-### Configuring the Instagram source plugin
+### Trouble shoot
 
-1. You need to have a [Facebook Page](https://www.facebook.com/pages/creation/) connected to [your Instagram Business account](https://www.facebook.com/business/help/898752960195806) (I know... :/)
-1. Go to your site settings -> Instagram -> Login into your Instagram account
-1. Create a [app](https://developers.facebook.com/apps/)
 1. Go to the [Graph API Explorer][gae]
     1. Select your App from the top right dropdown menu
     1. Select "Get User Access Token" from dropdown (right of access token field) and select needed permissions (manage_pages, pages_show_list, instagram_basic)
     1. Copy user access token
-1. [Access Token Debugger][atd]:
-    1. Paste copied token and press "Debug"
-    1. Press "Extend Access Token" and copy the generated long-lived user access token
-1. [Graph API Explorer][gae]:
-    1. Paste copied token into the "Access Token" field
-    1. Make a GET request with "PAGE_ID?fields=access_token" ([How to find your Page ID](https://www.facebook.com/help/1503421039731588))
-    1. Find the permanent page access token in the response (node "access_token")
-1. [Access Token Debugger][atd]:
-    1. Paste the permanent token and press "Debug"
-    1. "Expires" should be "Never"
-    1. Copy the **access token**
 1. [Graph API Explorer][gae]:
     1. Make a GET request with "PAGE_ID?fields=instagram_business_account" to get your **Business ID**
-    
-Now create a `.env` file at the root of the project with the following content:
+
+Now alter `.env` file at the root of the project with the following content:
 
 ```
 BUSINESS_ID=YOUR_ID
 ACCESS_TOKEN=YOUR_TOKEN
 ```
-
 You can paste your access token and Business ID there.
 
 ### Adding a new project
@@ -106,10 +84,6 @@ module.exports = {
   siteLogo: '/logos/logo.png', // Used for SEO and manifest
   siteDescription: 'Image-heavy portfolio to share me and my coding projects',
   author: 'Joshua', // Author for schema.org JSONLD
-
-  // siteFBAppID: '123456789', // Facebook App ID - Optional
-  // userTwitter: '@jodie', // Twitter Username
-  // ogSiteName: 'jodie', // Facebook Site Name
   ogLanguage: 'en_US', // og:language
   googleAnalyticsID: 'UA-XXXXXX-X',
 
