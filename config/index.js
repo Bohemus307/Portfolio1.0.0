@@ -9,8 +9,8 @@ module.exports = {
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo.png', // Used for SEO and manifest
   siteDescription: 'Full Stack Portfolio App To Get To Know ME',
-  author: 'Joshua Oxner', // Author for schema.org JSONLD
-
+  author: 'Joshua Scott Oxner', // Author for schema.org JSONLD
+  ogImage: './src/favicon.png',
   ogLanguage: 'en_US', // og:language
   googleAnalyticsID: 'UA-XXXXXX-X',
 

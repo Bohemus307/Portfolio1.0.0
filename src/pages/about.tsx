@@ -17,14 +17,37 @@ const About = () => {
       <AnimatedBox style={pageAnimation} py={[6, 6, 6, 8]} px={[6, 6, 8, 6, 8, 13]}>
         <h1>Hi. I'm Joshua!</h1>
         <p>
-          Stone and Sage is my creation to share my passion for Software Engineering
+          I am the founder of Stone and Sage Software,
           <br />
-          This site was built using Gatsby.js
           <br />
-          I really enjoyed the software and will be using Gatsby.js more in the future
+          Here at Stone and Sage Software we focus on designing and building full stack applications that exceed
+          expectations.
+          <br />
+          <br />
+          We do this by leveraging open source technology such as React, Typescript, GraphQl, Express, and Node.js and
+          many others.
+          <br />
+          <br />
+          Driven by the struggle as well as the success we lean into blockers and embrace new solutions as required.
+          <br />
+          <br />
+          Stone and Sage is excited to take your application ideas and dreams and make them a reality.
+          <br />
+          <br />
+          <br />
+          <br />
+          This site was built using Gatsby.js in a very sbort amount of time, It utilizes React, Typescript, GraphQl,
+          CircleCi, and Cypress.
+          <br />
+          <br />
+          Featuring responsive images in the projects section and a connection my instagram business page via an API.
+          <br />
+          <br />
+          I really enjoyed the software and will be using Gatsby.js more in future projects.
+          <br />
           <br />
           You can visit my <a href="https://www.linkedin.com/in/joshuaoxner/">LinkedIn</a> or check out my other{' '}
-          <a href="https://github.com/Bohemus307">projects</a>.
+          <a href="https://github.com/Bohemus307">projects at Github</a>.
         </p>
       </AnimatedBox>
     </Layout>
