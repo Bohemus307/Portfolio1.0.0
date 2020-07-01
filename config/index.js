@@ -10,7 +10,7 @@ module.exports = {
   siteLogo: '/logos/logo.png', // Used for SEO and manifest
   siteDescription: 'Full Stack Portfolio App To Get To Know ME',
   author: 'Joshua Scott Oxner', // Author for schema.org JSONLD
-  ogImage: './src/favicon.png',
+  ogimage: './src/favicon.png',
   ogLanguage: 'en_US', // og:language
   googleAnalyticsID: 'UA-XXXXXX-X',
 

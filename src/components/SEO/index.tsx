@@ -2,7 +2,6 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
-
 type Props = {} & typeof defaultProps
 
 const defaultProps = {
@@ -182,6 +181,7 @@ const SEO = ({ title, desc, banner, pathname, node, individual }: Props) => {
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
         <meta name="gatsby-starter" content="Gatsby Portfolio Joshua" />
+        <meta name="image" property="og:image" content="../../favicon.png" />
         {/* Insert schema.org data conditionally (webpage/article) + everytime (breadcrumbs) */}
         {!individual && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
         {individual && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
