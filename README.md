@@ -44,7 +44,7 @@ rm -rf .cache
    1. Select "Get User Access Token" from dropdown (right of access token field) and select needed permissions (manage_pages, pages_show_list, instagram_basic)
    1. Copy user access token
 1. [Graph API Explorer][gae]:
-   1. Make a GET request with "PAGE_ID?fields=instagram_business_account" to get your **Business ID**
+   1. Make a GET request with "101552444935259?fields=instagram_business_account" to get your **Business ID**
 
 Now alter `.env` file at the root of the project with the following content:
 
