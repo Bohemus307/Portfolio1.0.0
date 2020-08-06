@@ -5,7 +5,7 @@
   color: "white"
   images: "bw"
   cover: "./bw/projects-bw-001.jpg"
-  desc: "Through my newest yet most passionate medium code, I have learned to remove my limits and allow my knowledge to expand beyond my imagination. This brings me challenge, success, feedback, inspiration, and can induce a state of flow I have rarely experienced. Here are few images of Full Stack Applications that I built to bring about questions."
+  desc: "Through my most passionate medium Code, I have learned to remove my limits and allow my knowledge to expand beyond my imagination. This brings me challenge, success, feedback, inspiration, and can induce a state of flow I have rarely experienced. Here are few images of Full Stack Applications that I built to bring about some questions."
 - title: "Movement"
   title_detail: "Movement - a body in motion"
   slug: "/glory-of-movement"

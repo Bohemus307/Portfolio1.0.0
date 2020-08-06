@@ -5,12 +5,12 @@ module.exports = {
   siteTitleAlt: 'Joshua - Portfolio', // Alternative Site title for SEO
   siteTitleShort: 'Joshua', // short_name for manifest
   siteHeadline: 'Enjoy a small look into my life and passions', // Headline for schema.org JSONLD
-  siteUrl: 'https://www.linkedin.com/company/stoneandsage/', // Domain of your site. No trailing slash!
+  siteUrl: 'http://www.joshuascottoxner.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo.png', // Used for SEO and manifest
   siteDescription: 'Full Stack Portfolio App To Get To Know ME',
   author: 'Joshua Scott Oxner', // Author for schema.org JSONLD
-  ogimage: './src/favicon.png',
+  ogimage: '/src/favicon.png',
   ogLanguage: 'en_US', // og:language
   googleAnalyticsID: 'UA-XXXXXX-X',
 
