@@ -13,16 +13,9 @@ For Joshua Scott Oxner Full Stack Software Developer at Stone and Sage Software
 - Uses styled-components + styled-system for styling
 - Google Analytics support
 - SEO
-  - Sitemap
-  - Schema.org JSONLD
-  - OpenGraph Tags
-  - Twitter Tags
 - Offline Support
 - WebApp Manifest Support
 - Responsive Images
-  - Right image sizes
-  - Blurred loading animation
-  - WebP support
 
 ## Getting Started
 
@@ -37,7 +30,8 @@ Sometimes cache errors in graphql run
 
 ```
 rm -rf .cache
-```
+
+### Accessing Instagram API
 
 1. Go to the [Graph API Explorer][gae]
    1. Select your App from the top right dropdown menu
@@ -46,39 +40,18 @@ rm -rf .cache
 1. [Graph API Explorer][gae]:
    1. Make a GET request with "101552444935259?fields=instagram_business_account" to get your **Business ID**
 
-Now alter `.env` file at the root of the project with the following content:
-
 ```
 BUSINESS_ID=YOUR_ID
 ACCESS_TOKEN=YOUR_TOKEN
 ```
 
-You can paste your access token and Business ID there.
-
-### Adding a new project
-
-1. Create a new folder in `content/projects` and place your images there
-1. Add your project to the `content/projects/projects.yaml` file
-
-### Adding a new page
-
-Create a new `.tsx` file in the `src/pages` directory
-
-### Adding new features/plugins
-
-You can add other features by having a look at the official [plugins page](https://www.gatsbyjs.org/docs/plugins/)
-
-### Building your site
+### Building the site
 
 ```
 npm run build
 ```
 
-Copy the content of the `public` folder to your webhost or use a website like Netlify which automates that for you.
-
 ## Configuration
-
-You can configure your setup in `config/index.js`:
 
 ```JS
 module.exports = {
@@ -101,8 +74,6 @@ module.exports = {
   backgroundColor: '#3b3c4f',
 }
 ```
-
-You can also configure the styling of the site by editing the theme variables in `config/theme.ts`.
 
 ```typescript
 interface ThemeShape {
@@ -158,8 +129,3 @@ const theme: ThemeShape = {
 
 export default theme;
 ```
-
-**Attention:** You also need to edit `static/robots.txt` to include your domain!
-
-[gae]: https://developers.facebook.com/tools/explorer/
-[atd]: https://developers.facebook.com/tools/debug/accesstoken/

@@ -24,11 +24,12 @@ const About = () => {
           expectations.
           <br />
           <br />
-          We do this by leveraging open source technologies such as React, Typescript, GraphQl, Express, Docker, Node and
-          many others. 
+          We do this by leveraging open source technologies such as React, Typescript, GraphQl, Express, Docker, Node
+          and many others.
           <br />
           <br />
-          Stone and Sage utilizes cloud technology like AWS to ensure deployment optimization using architecture that can scale as required.
+          Stone and Sage utilizes cloud technology like AWS to ensure deployment optimization using architecture that
+          can scale as required.
           <br />
           <br />
           Driven by the struggle as well as the success, we lean into blockers and embrace new solutions as required.
@@ -37,10 +38,12 @@ const About = () => {
           Stone and Sage is excited to share in your challenges and add to your successes.
           <br />
           <br />
-          This site was built using Gatsby.js. It utilizes React, Typescript, GraphQl, CircleCi, and Cypress. This site was deployed using Netifly and it is updated through my Github.
+          This site was built using Gatsby.js. It utilizes React, Typescript, GraphQl, CircleCi, and Cypress. This site
+          was deployed using Netifly and it is updated through my Github.
           <br />
           <br />
-          It features responsive images in the projects section and a connection to my instagram business page via an external API.
+          It features responsive images in the projects section and a connection to my instagram business page via an
+          external API.
           <br />
           <br />
           I really enjoyed the software and the process and will be using Gatsby.js more in future projects.

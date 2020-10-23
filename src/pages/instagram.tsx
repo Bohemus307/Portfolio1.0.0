@@ -139,7 +139,7 @@ const Instagram: React.FunctionComponent<Props> = ({
       <SEO title="Instagram | Joshua Scott Oxner" />
       <Grid style={pageAnimation}>
         {trail.map((style, index) => {
-          // Grab everything before the first hashtag (because I write my captions like that)
+          // Grab everything before the first hashtag
           const post = instagram[index]
           const title = post.caption ? post.caption.split('#')[0] : ''
           const date = new Date(post.timestamp * 1000).toLocaleDateString('de-DE')
